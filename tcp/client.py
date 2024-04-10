@@ -7,10 +7,10 @@ import socket
 s = socket.socket()
 
 #Port that will be refernced for connecting to server
-port = 0000
+port = 8640
 
 #Connects to server with given arguments
-s.connect(('insert ip here', port))
+s.connect(('172.28.3.26', port))
 
 #Receives something from the server, I don't know what :)
 print(s.recv(1024).decode())
