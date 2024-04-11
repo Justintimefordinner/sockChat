@@ -1,6 +1,6 @@
 import socket
  
-UDP_IP = "172.28.1.120"
+UDP_IP = "172.16.102.109"
 UDP_PORT = 9327
 MESSAGE = b"What's Up!"
  
