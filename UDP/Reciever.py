@@ -1,6 +1,6 @@
 import socket
 
-ADDR = ('172.28.1.120', 9327)
+ADDR = ('172.28.1.109', 9327)
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
